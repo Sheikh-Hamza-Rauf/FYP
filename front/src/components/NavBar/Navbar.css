@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensure space between logo and auth buttons */
+    padding: 10px 20px;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .navbar-logo img {
+    height: 75px; /* Adjust the height as needed */
+    margin-right: 10px;
+  }
+  
+  .navbar-name {
+    font-size: 25px; /* Adjust the size as needed */
+    font-weight: bold;
+    color: #fff; /* Change the color as needed */
+    border: 2px solid #fff; /* White border */
+    border-radius: 15px; /* Curved rectangle */
+    padding: 5px 10px; /* Adjust padding as needed */
+    background-color: transparent; /* Transparent background */
+  }
+  
+  .navbar-name:hover {
+    text-decoration: underline;
+  }
+
+  .navbar-auth {
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-button {
+    font-size: 20px;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid #fff; 
+    border-radius: 15px; 
+    padding: 5px 10px; 
+  }
+  
+  .auth-button:hover {
+    text-decoration: underline;
+  }
+  
